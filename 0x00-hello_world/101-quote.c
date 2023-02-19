@@ -1,0 +1,12 @@
+#include <unistd.h>
+/** 
+ * main - print a string in c
+ *
+ * Return: int (1)
+*/
+
+int main(void)
+{
+	write(2, "and that piece of art is useful\" - Dora Karpar, 2015-10-9\n")
+		return (1);
+}
