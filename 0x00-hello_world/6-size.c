@@ -4,12 +4,12 @@
  *
  * Return: Always 0 (Success)
 */
-char a;
-int b;
-long int c;
-float d;
-int main(void)
 {
+	char a;
+	int b;
+	long int c;
+	float d;
+	
 	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(a));
 	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(b);
 	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(c);
