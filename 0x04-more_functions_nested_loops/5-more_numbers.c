@@ -25,7 +25,7 @@ void more_numbers(void)
 			{
 				first_digit = num / 10;
 				second_digit = num % 10;
-				_putchar (first_number + '0');
+				_putchar (first_digit + '0');
 			}
 			_putchar (second_digit	+ '0');
 		}
