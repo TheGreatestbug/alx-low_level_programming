@@ -21,12 +21,12 @@ void more_numbers(void)
 		{
 			if (num < 10)
 			{
-				_putchar (num);
+				_putchar (num + '0');
 			}
 			else
 			{
-				_putchar (first_digit);
-				_putchar (second_digit);
+				_putchar (first_digit + '0');
+				_putchar (second_digit + '0');
 			}
 		}
 	}	
