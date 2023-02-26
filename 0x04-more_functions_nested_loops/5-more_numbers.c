@@ -19,15 +19,15 @@ void more_numbers(void)
 		{
 			if (num < 10)
 			{
-				second_number = num;
+				second_digit = num;
 			}
 			else
 			{
-				first_digit = num /10;
+				first_digit = num / 10;
 			 	second_digit = num % 10;
 				_putchar (first_number + '0');
 			}
-			_putchar (second_number + '0');
+			_putchar (second_digit	+ '0');
 		}
 		_putchar ('\n');
 	}
