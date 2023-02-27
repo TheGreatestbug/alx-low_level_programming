@@ -2,8 +2,8 @@
 
 /**
  * _puts - check the code
- *
- * Return: Always 0
+ * @str: variable string
+ * Return: void
  */
 
 void _puts(char *str)
