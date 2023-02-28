@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- *  *  * *_strcpy - copies the string pointed by src
- *   *   *@src:source
- *    *    * @dest:destination
- *     *     * Return: pointer to destination.
- *     */
+ *_strcpy - copies the string pointed by src
+ *@src:source
+ * @dest:destination
+ * Return: pointer to destination.
+ */
 char *_strcpy(char *dest, char *src)
 {
 	size_t i;
