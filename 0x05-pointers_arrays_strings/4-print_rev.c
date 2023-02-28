@@ -8,15 +8,13 @@
 
 void print_rev(char *s)
 {
-	int i = 0;
+	int length = strlen(s);
+	char *end = s + length - 1;
 
-	while (*(s + i) != '\0')
-		i += 1;
-	i -= 1;
-	while (i >= 0)
+	while (end >= s)
 	{
-		_putchar(*(s + i));
-		i--;
+		printf("%c", *end);
+		end--;
 	}
-	_putchar('\n');
+	printf("\n");
 }
