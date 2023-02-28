@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- *  * rev_string - Reverses a string
- *   * @s: Pointer to the string
- *    * Return: Always 0.
- *     */
+ * rev_string - Reverses a string
+ * @s: Pointer to the string
+ * Return: Always 0.
+ */
 void rev_string(char *s)
 {
 	int len = strlen(s);
