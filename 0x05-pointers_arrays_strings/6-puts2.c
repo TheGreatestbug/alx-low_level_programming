@@ -9,14 +9,15 @@
 
 void puts2(char *str)
 {
-	int length = strlen(str);
-	char *end = str + length;
+	int i = 0;
 
-	while (str < end)
+	while (str[i] != '\0')
 	{
-		printf("%c", *str);
-		str = str + 2;
+		if (i % 2 == 0)
+		{
+			_putchar(*(str + i));
+		}
+		i += 1;
 	}
-
-	printf("\n");
+	_putchar('\n');
 }
