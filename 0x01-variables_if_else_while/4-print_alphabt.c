@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-/*
+/**
  * main - Entry point
- *
  * Description: Print lowercase letters except e and q
  *
  * Return: Always 0 (Success)
