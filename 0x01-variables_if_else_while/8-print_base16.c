@@ -7,20 +7,18 @@
  *
  * Return: Always 0  (Success)
  */
- 
 int main(void)
 {
-	char dec;
 	char hex;
 
-	for (dec = 0; dec <= 9; dec++)
+	for (hex = 0; hex <= 9; hex++)
 	{
-		putchar(dec);
+		putchar('0' + hex);
 	}
 	for (hex = 'a'; hex <= 'f'; hex++)
 	{
 		putchar(hex);
-	}		
+	}
 	putchar('\n');
 	return (0);
 }
