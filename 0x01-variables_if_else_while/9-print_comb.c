@@ -1,11 +1,8 @@
 #include <stdio.h>
-
 /**
- * main - Entry point 
- *
- * Desription: A program that does stuff I hyahave no idea about
- *
- * Return: Aint num;
+ * main - Entry point
+ * Desription: A program that does stuff I have no idea about
+ * Return: Always 0;
  */
 
 int main(void)
