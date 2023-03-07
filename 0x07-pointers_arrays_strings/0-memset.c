@@ -2,22 +2,19 @@
 #include <string.h>
 
 /**
- * _memset - Entry point
- * Description: A program that fills memory with a constant byte
- * @s: variable
- * @n another var
- * @b: a var
- * Return: void
+ * *_memset - fills memory with a constant byte
+ * @s: a pointer
+ * @b: a char
+ * @n: an unsigned int
+ * Return: Always 0.
  */
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i;
+	char *result;
 
-	for (i = 0; n > 0; i++, n--)
-	{
-		s[i] = b;
-	}
+	result = memset(s, b, n);
 
-	return (s);
+	return (result);
 }
+
