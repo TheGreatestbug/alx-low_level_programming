@@ -10,7 +10,9 @@ void _puts_recursion(char *s)
 {
 	if (*s == '\0')
 	{
-		Printf("%c\n", *s);
+		Printf("\n");
+		return;
 	}
+	Printf("%c\n", *s);
 	_puts_recursion(*s + 1);
 }
