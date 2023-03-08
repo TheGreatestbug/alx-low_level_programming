@@ -11,13 +11,8 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	int i = 0;
-
-	while (n > 0)
+	for (int i=0; i<n; i++)
 	{
-		s[i] = b;
-		i++;
-		n--;
+		printf("%d\n", arr[i]);
 	}
-	return (s);
 }
