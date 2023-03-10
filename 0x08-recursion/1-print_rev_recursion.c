@@ -3,6 +3,7 @@
 /**
  * _print_rev_recursion - Prints in reverse
  * Description: A program that prints a string in reverse
+ * @s: a variable in main
  * Return: void
  */
 
